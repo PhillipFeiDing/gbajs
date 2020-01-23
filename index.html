@@ -73,6 +73,11 @@ window.onload = function() {
 		var dead = document.getElementById('controls');
 		dead.parentElement.removeChild(dead);
 	}
+	fetch('https://cors-anywhere.herokuapp.com/https://github.com/PhillipFeiDing/pacman-game-gba/blob/master/Game.gba?raw=true')
+  	.then(res => res.blob()) // Gets the response and returns it as a blob
+  	.then(blob => {
+    	run(blob)
+	});
 }
 
 function fadeOut(id, nextId, kill) {
