@@ -1,6 +1,6 @@
 body {
-	background: url('bg.png') no-repeat top center, -webkit-linear-gradient(#765490 560px, #6A4883 620px, #433061 900px);
-	background: url('bg.png') no-repeat top center, -moz-linear-gradient(#765490 560px, #6A4883 620px, #433061 900px, #433061);
+	background: url('bg.png') no-repeat top center, -webkit-linear-gradient(#ffffff 560px, #ffffff 620px, #ffffff 900px);
+	background: url('bg.png') no-repeat top center, -moz-linear-gradient(#ffffff 560px, #ffffff 620px, #ffffff 900px, #ffffff);
 	text-align: center;
 	margin: 0 0 15px;
 	color: white;
